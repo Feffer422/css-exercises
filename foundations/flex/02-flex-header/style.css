@@ -13,9 +13,20 @@
   padding: 4px 32px;
 }
 
+.left-links {
+  justify-self: start;
+  display: flex;
+}
+
+.right-links {
+  justify-self: end;
+  display: flex;
+}
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 10px
 }
 
 a {
